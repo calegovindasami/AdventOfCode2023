@@ -1,4 +1,5 @@
 ﻿using AdventOfCode2023.Day_1;
+using AdventOfCode2023.DayTwo;
 
 namespace AdventOfCode2023
 {
@@ -6,8 +7,7 @@ namespace AdventOfCode2023
     {
         static void Main(string[] args)
         {
-            int total = DayOne.Solution();
-            Console.WriteLine(total);
+            DayTwo.DayTwo.Solution();
         }
     }
 }
